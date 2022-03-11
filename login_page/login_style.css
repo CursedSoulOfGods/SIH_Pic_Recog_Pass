@@ -4,8 +4,8 @@ header {
 }
 
 body {
-    background-image: bi.jpg;
-    background-size: cover;
+    background-image: url(pexels-chait-goli-2083840.jpg);
+    background-size: 160%;
     background-position: center;
     font-family: sans-serif;
 }
