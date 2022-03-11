@@ -1,4 +1,15 @@
 header {
     text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+body {
+    background-image: bi.jpg;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.main {
+     
 }
