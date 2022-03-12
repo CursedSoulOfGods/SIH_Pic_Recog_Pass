@@ -1,31 +1,42 @@
-body {
-    background-image: url(pexels-chait-goli-2083840.jpg);
-    background-size: 160%;
-    background-position: center;
+html { 
+    height: 100% 
+}
+
+body{
+    background-image: url(pexels-chait-goli-edit-2.jpg) ;
     font-family: sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(1000px);
 }
 
 .main {
-    width: 500px;
-    background: rgba(0, 0, 0, 0.8);
-    margin: 12% auto;
-    padding: 50px 0;
-    color: #fff;
-    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    align-items: center;
+    width: 400px;
+    background: rgba(0, 0, 0, 0.9);
+    margin: 17.5% 33%;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    border-radius: 7.5px;
 }
 
 h1{
     text-align: center;
     margin-bottom: 40px;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 10000;
+    color: rgb(255, 255, 255);
 }
 
 .in{
     margin: 31px auto;
     width: 80%;
-    border-bottom: 1px solid #fff;
-    padding-top: 10px;
-    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .in input{
@@ -33,6 +44,11 @@ h1{
     border: none;
     outline: none;
     background: transparent;
-    color: #fff;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 2px;
 }
 
